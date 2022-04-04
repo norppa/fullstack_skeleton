@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    background-color: darkkhaki;
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}

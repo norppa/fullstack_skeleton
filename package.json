@@ -1,0 +1,30 @@
+{
+  "name": "fullstack_skeleton",
+  "version": "1.0.0",
+  "description": "A skeleton fullstack project with React frontend and Node/Express backend.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norppa/fullstack_skeleton.git"
+  },
+  "author": "Jari Haavisto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norppa/fullstack_skeleton/issues"
+  },
+  "homepage": "https://github.com/norppa/fullstack_skeleton#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
